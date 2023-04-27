@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.main-heading{
+    /* text-align: center; */
+    background-color: #333;
+    color: #fff;
+    padding: 1.2rem 0;
+    padding-left: 1rem;
+}
+.custom-input{
+    padding : 0.5rem;
+    border: 1px solid #333;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 75%;
+}
+.custom-input:focus{
+    outline: none;
+}
+.flex-info{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.chip{
+    background-color: #26abe6;
+    color: #000;
+    padding: 0.8rem 0.4rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+.yellow{
+    background-color: rgb(230, 230, 85);
+}
+.red{
+    background-color: rgb(235, 33, 33);
+}
+p{
+    margin: 0.4rem 0;
+}
+.myDiv{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 400px;
+    height: 220px;
+}
+
+.myDiv h1{
+    margin: 0;
+}
+.myDiv h3{
+    margin-top: 0.5rem;
+}
+#loader{
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top-color: rgb(57, 196, 242);
+    animation : rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
